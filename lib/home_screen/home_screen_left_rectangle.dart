@@ -68,7 +68,7 @@ class HomeScreenLeftRectangle extends StatelessWidget {
                   clickedURL: '',
                 ),
                 ClickableCircleImage(
-                  imageLocation: 'assets/images/Linkedin_Logo_01.jpg',
+                  imageLocation: 'assets/images/Linkedin_Logo_01.png',
                   clickedURL: '',
                 ),
                 ClickableCircleImage(
