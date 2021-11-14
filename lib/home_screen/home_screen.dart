@@ -74,11 +74,11 @@ class HomeScreen extends StatelessWidget {
 
   List<Chip> getSkillChips() {
     List<Chip> chips = [];
-    for (int i = 0; i < 5; ++i) {
+    for (int i = 0; i < 7; ++i) {
       chips.add(
         Chip(
             padding: EdgeInsets.all(8),
-            label: Text('chip yeaaaaaaah!', style: kChipTextStyle),
+            label: Text('skill chip', style: kChipTextStyle),
             backgroundColor: kLightBrownColor),
       );
     }
