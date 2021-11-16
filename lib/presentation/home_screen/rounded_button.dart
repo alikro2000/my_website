@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'dart:html' as html;
-
-import '../constants.dart';
+import '../../constants.dart';
 import 'clickable_circle_image.dart';
+import 'dart:html' as html;
 
 class RoundedButton extends StatelessWidget {
   final String text;

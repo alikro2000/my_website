@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:my_website/presentation/home_screen/home_screen.dart';
 
-import 'home_screen/home_screen.dart';
-
-void main() {
+void main() async {
   runApp(MyApp());
 }
 

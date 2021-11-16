@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../constants.dart';
+import '../../constants.dart';
 import 'clickable_circle_image.dart';
 
 class HomeScreenLeftRectangle extends StatelessWidget {
@@ -22,11 +22,7 @@ class HomeScreenLeftRectangle extends StatelessWidget {
       decoration: BoxDecoration(
         color: kLightBrownColor,
         boxShadow: [
-          BoxShadow(
-              blurRadius: 15,
-              spreadRadius: 10,
-              color: Colors.grey,
-              offset: Offset.fromDirection(0, 1)),
+          BoxShadow(blurRadius: 15, spreadRadius: 10, color: Colors.grey, offset: Offset.fromDirection(0, 1)),
         ],
       ),
       child: Column(
